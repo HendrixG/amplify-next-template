@@ -6,7 +6,7 @@ export default function MyWeatherClient() {
 
     const getWeatherInfo = async () => {
         try {
-            // Link from freepublicapi
+            // Link from freepublicapi for weather component
             const response = await fetch('https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0');
             const weatherData = await response.json();
             const tempCelsius = weatherData.dataseries[0].temp2m;
