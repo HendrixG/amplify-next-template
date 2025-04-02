@@ -11,9 +11,10 @@ export default function App() {
   return (
     <main>
       <LocationFinderClient />
+      <MyWeatherClient />
       <LocationFinderServer />
       <ToDo />
-      <MyWeatherClient />
+      
     </main>
   );
 }
