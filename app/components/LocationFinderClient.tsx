@@ -16,7 +16,7 @@ export default function LocationFinderServer() {
 
     return (
         <>
-        <h1>Hello from {locationInfo.City} - client component</h1>
+        <h1>Hello from {locationInfo.City} - Client component</h1>
         </>
     )
 

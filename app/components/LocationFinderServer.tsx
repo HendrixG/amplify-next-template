@@ -14,7 +14,7 @@ export default async function LocationFinderServer() {
     return (
       <>
         <h1>
-          Hello from {locationInfo?.city} - server component! Current Temperature: {tempCelsius}°C
+          Hello from {locationInfo.City} - Current Temperature: {tempCelsius}°C  - Server component! 
         </h1>
       </>
     );
